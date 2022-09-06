@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pontus_maintenance *.css
+recursive-include pontus_maintenance *.csv
+recursive-include pontus_maintenance *.html
+recursive-include pontus_maintenance *.ico
+recursive-include pontus_maintenance *.js
+recursive-include pontus_maintenance *.json
+recursive-include pontus_maintenance *.md
+recursive-include pontus_maintenance *.png
+recursive-include pontus_maintenance *.py
+recursive-include pontus_maintenance *.svg
+recursive-include pontus_maintenance *.txt
+recursive-exclude pontus_maintenance *.pyc
