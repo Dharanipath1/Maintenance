@@ -22,6 +22,7 @@
   "edc",
   "complete_date",
   "accept_date",
+  "rating",
   "employee_details_section",
   "amended_from"
  ],
@@ -128,12 +129,17 @@
    "options": "Maintenance Log",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Rating",
+   "label": "Rating"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-09-27 15:01:45.046902",
+ "modified": "2022-10-06 21:00:01.516404",
  "modified_by": "Administrator",
  "module": "Pontus Maintenance",
  "name": "Maintenance Log",
